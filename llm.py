@@ -47,7 +47,7 @@ def read_api_key(file_path="api_key.txt"):
 
 def initialize_qa_chain(
     retriever=None,
-    model="gemini-1.5-flash",
+    model="gemini-2.5-flash",
     temperature=0,
     max_tokens=None,
     timeout=None,
